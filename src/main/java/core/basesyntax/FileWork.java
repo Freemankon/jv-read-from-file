@@ -9,6 +9,7 @@ import java.util.Collections;
 public class FileWork {
     public static final String SPECIFIED_LETTER = "w";
     public static final String SPECIFIED_REGEX = "\\W+";
+
     public String[] readFromFile(String fileName) {
         ArrayList<String> dynamicStringArray = new ArrayList<>();
 
